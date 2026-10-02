@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zahir | Bio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#hero">Zahir</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#plan">Plan</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm Zahir</h1>
+      <p class="lead">CSE student building toward AI/ML and software engineering.</p>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+    <figure class="hero-photo">
+      <img src="avatar.svg" alt="Profile picture of Zahir" width="200" height="200">
+      <figcaption class="badge">9th semester</figcaption>
+    </figure>
+    </div>
+  </section>
+
+  <main class="content">
+    <section id="about">
+      <h2>About me</h2>
+      <p>I'm a Computer Science &amp; Engineering student at American International University&ndash;Bangladesh (AIUB), currently in my 9th semester. I'm looking for internships in AI/ML engineering and software engineering.</p>
+    </section>
+
+    <section id="skills">
+      <h2>What I work with</h2>
+      <h3>Focus areas</h3>
+      <ul>
+        <li>Machine learning</li>
+        <li>Software engineering</li>
+        <li>Web development</li>
+      </ul>
+      <h3>Skill levels</h3>
+      <table>
+        <caption>Where I am right now</caption>
+        <thead>
+          <tr>
+            <th scope="col">Skill</th>
+            <th scope="col">Area</th>
+            <th scope="col">Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Python</td><td>Machine learning</td><td>Intermediate</td></tr>
+          <tr><td>HTML &amp; CSS</td><td>Web development</td><td>Learning</td></tr>
+          <tr><td>Data structures</td><td>Software engineering</td><td>Intermediate</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="plan">
+      <h2>Internship plan</h2>
+      <ol>
+        <li>Finish core coursework</li>
+        <li>Build and publish projects</li>
+        <li>Apply to internships</li>
+      </ol>
+    </section>
+
+    <section id="links">
+      <h2>Find me online</h2>
+      <ul>
+        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:you@example.com">Email me</a></li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact me</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Your name</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Your email</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="topic">Topic</label><br>
+          <select id="topic" name="topic">
+            <option value="internship">Internship opportunity</option>
+            <option value="project">Project collaboration</option>
+            <option value="other">Something else</option>
+          </select>
+        </p>
+        <fieldset>
+          <legend>Preferred reply</legend>
+          <input type="radio" id="reply-email" name="reply" value="email" checked>
+          <label for="reply-email">Email</label>
+          <input type="radio" id="reply-call" name="reply" value="call">
+          <label for="reply-call">Call</label>
+        </fieldset>
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="5" cols="40"></textarea>
+        </p>
+        <p><button type="submit">Send message</button></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Zahir</p>
+  </footer>
+
+</body>
+</html>
